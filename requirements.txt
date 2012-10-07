@@ -1,0 +1,10 @@
+Django==1.4.1
+South==0.7.6
+django-debug-toolbar==0.9.4
+-e git://github.com/nikdoof/django-braces.git#egg=braces
+-e git://github.com/nikdoof/eveapi.git#egg=eveapi
+-e git://github.com/nikdoof/django-eveigb.git#egg=django-eveigb
+django-modeldict==1.3.1
+-e git://github.com/mvasilkov/django-google-charts.git#egg=django-google-charts
+raven
+dj-database-url==0.2.1

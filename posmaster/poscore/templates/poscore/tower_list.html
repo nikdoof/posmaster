@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+<table>
+{% regroup object_list by system as objects_by_system %}
+{% for system in objects_by_system %}
+<h2>{{ system.grouper.name }}</h2>
+<table>
+{% for tower in system.list %}
+<tr><td>{{ tower.moon.name }}</td><td><a href="{% url tower-detail pk=tower.pk %}">{{ tower.name }}</a></td></tr>
+{% endfor %}
+</table>
+{% endfor %}
+{% endblock %}

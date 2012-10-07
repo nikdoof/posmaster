@@ -1,0 +1,14 @@
+
+# Distance units, in meters (EVE Units, aka heavily rounded)
+DISTANCE_METER = 1
+DISTANCE_KILOMETER = 1000
+DISTANCE_ASTRONOMICAL_UNIT = 149598000000
+DISTANCE_LIGHT_YEAR = 9460000000000000
+
+# Important Type Groups we need to filter on
+
+TYPEGROUP_TOWERS = [365]
+TYPEGROUP_FUEL = [1136, 423]
+
+# Important attributes types
+ATTRIBUTE_MAX_STRUCTURE_DISTANCE = 650
